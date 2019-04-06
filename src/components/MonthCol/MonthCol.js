@@ -33,7 +33,7 @@ class MonthCol extends Component {
       this.setState({
         isFull: true
       });
-      console.log("You completed a whole month!!!");
+      alert("You completed a whole month!!!");
     }
   }
   renderRow(numDays) {
