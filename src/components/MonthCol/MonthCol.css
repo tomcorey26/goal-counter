@@ -1,0 +1,18 @@
+.month {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.month > div {
+  width: 50px;
+  text-align: center;
+  line-height: 55px;
+}
+
+.month:nth-child(odd) {
+  background: #BBB6DF;
+}
+
+.month:nth-child(even) {
+  background:#FCFCFF;
+}
