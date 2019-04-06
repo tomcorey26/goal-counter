@@ -1,13 +1,19 @@
 /*  */
 
-.white{
+.white {
   background-color: aliceblue;
+  height: 50%;
+  margin-top: 20px;
 }
 
-.red{
+.red {
   background-color: darkred;
+  height: 50%;
+  margin-top: 20px;
 }
 
 button {
   border-radius: 50%;
+  height: 70%;
+  margin-top: 20px;
 }

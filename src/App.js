@@ -15,7 +15,8 @@ class App extends Component {
         <div class="jumbotron text-center">
           <h1>Daily Goal Tracker</h1>
         </div>
-        <Calendar onChange={this.onChange} value={this.state.date} />
+        <Year />
+        {/* <Calendar onChange={this.onChange} value={this.state.date} /> */}
       </div>
     );
   }
